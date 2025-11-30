@@ -1,0 +1,39 @@
+<svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2C94C"/>
+      <stop offset="100%" stop-color="#E0A92F"/>
+    </linearGradient>
+
+    <radialGradient id="lightGlow" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.45)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#goldGradient)"/>
+
+  <!-- Subtle Glow -->
+  <circle cx="800" cy="350" r="420" fill="url(#lightGlow)"/>
+
+  <!-- Abstract Shapes -->
+  <rect x="200" y="150" width="50" height="600" fill="rgba(255,255,255,0.12)" rx="25"/>
+  <rect x="1350" y="180" width="40" height="550" fill="rgba(255,255,255,0.1)" rx="20"/>
+
+  <circle cx="300" cy="700" r="120" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="1350" cy="250" r="150" fill="rgba(255,255,255,0.05)"/>
+
+  <!-- FAREWELL Text -->
+  <text x="50%" y="50%" text-anchor="middle" fill="#000000"
+        font-family="Anton, sans-serif" font-size="180" letter-spacing="4"
+        dy="-20">
+    FAREWELL
+  </text>
+
+  <!-- Subtext -->
+  <text x="50%" y="58%" text-anchor="middle" fill="#111111"
+        font-family="Montserrat, sans-serif" font-size="60" letter-spacing="10">
+    OF ZAMA CREATOR PROGRAM S4
+  </text>
+</svg>
